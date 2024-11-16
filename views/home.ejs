@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World in Your Language</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <form action="/hello" method="get">
+        <div class="box">
+            <h1 id="heading">Select Your Language Choice.</h3>
+                <select name="language">
+                    <% languages.forEach(language=> { %>
+                        <option value="<%=language%>" class="options">
+                            <%= language.toUpperCase()%>
+                        </option>
+                        <% }); %>
+                </select>
+                <button>Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>

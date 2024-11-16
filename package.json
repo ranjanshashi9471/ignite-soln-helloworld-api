@@ -1,0 +1,21 @@
+{
+	"name": "ignitesoln_round2",
+	"version": "1.0.0",
+	"description": "Hello World Message in a language of your choice",
+	"main": "app.js",
+	"type": "module",
+	"scripts": {
+		"start": "node app.js",
+		"dev": "nodemon app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Shashi Ranjan Kumar",
+	"license": "ISC",
+	"dependencies": {
+		"ejs": "^3.1.10",
+		"express": "^4.21.1"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.7"
+	}
+}
