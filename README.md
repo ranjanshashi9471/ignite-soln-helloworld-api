@@ -1,4 +1,4 @@
-# IgniteSoln Round 2 - Hello World in Multiple Languages
+# Hello World in Multiple Languages
 
 This project is a simple Node.js application using **Express** and **EJS** to display a "Hello World" message in different languages based on user input.
 
