@@ -29,7 +29,7 @@ Follow these steps to set up and run the project:
 
 ```bash
 git clone https://github.com/ranjanshashi9471/ignitesoln-helloworld-api.git
-cd ignitesoln-round2
+cd ignitesoln-helloworld-api
 ```
 
 ### 2. Install Dependencies
