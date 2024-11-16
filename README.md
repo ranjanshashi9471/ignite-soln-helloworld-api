@@ -28,7 +28,7 @@ Follow these steps to set up and run the project:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/ranjanshashi9471/ignitesoln-round2.git
+git clone https://github.com/ranjanshashi9471/ignitesoln-helloworld-api.git
 cd ignitesoln-round2
 ```
 
