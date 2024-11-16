@@ -25,7 +25,12 @@ Before running the project, ensure you have the following installed:
 
 Follow these steps to set up and run the project:
 
-### 1. Unzip the file
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/ranjanshashi9471/ignitesoln-round2.git
+cd ignitesoln-round2
+```
 
 ### 2. Install Dependencies
 
@@ -35,8 +40,16 @@ npm install
 
 ### 3. Run the Application
 
+For **development mode** (auto-restarts on changes):
+
 ```bash
 npm run dev
+```
+
+For **production mode**:
+
+```bash
+npm start
 ```
 
 The server will start on [http://localhost:5000](http://localhost:5000).
@@ -53,8 +66,30 @@ Open your browser and navigate to:
 http://localhost:5000/
 ```
 
-Select any One `<language>` from one of the following:
+Replace `<language>` with one of the following:
 
 - `english`
 - `hindi`
 - `french`
+
+### 2. Example Requests
+
+#### Valid Request:
+
+```plaintext
+http://localhost:5000/hello?lang=english
+```
+
+#### Invalid Request:
+
+```plaintext
+http://localhost:5000/hello?lang=spanish
+```
+
+---
+
+## Author
+
+**Shashi Ranjan Kumar**
+
+If you have any questions or suggestions, feel free to contact me.
