@@ -46,7 +46,7 @@ For **development mode** (auto-restarts on changes):
 npm run dev
 ```
 
-For **production mode**:
+For **production mode** (donot auto-restart):
 
 ```bash
 npm start
@@ -77,13 +77,13 @@ Replace `<language>` with one of the following:
 #### Valid Request:
 
 ```plaintext
-http://localhost:5000/hello?lang=english
+http://localhost:5000/hello?language=english
 ```
 
 #### Invalid Request:
 
 ```plaintext
-http://localhost:5000/hello?lang=spanish
+http://localhost:5000/hello?language=spanish
 ```
 
 ---
